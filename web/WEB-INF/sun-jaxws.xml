@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="elective.postparking.PostParkingImpl" name="PostParkingImpl" url-pattern="/PostParkingImpl"/>
+  <endpoint implementation="elective.switchon.SwitchOnImpl" name="SwitchOnImpl" url-pattern="/SwitchOnImpl"/>
+  <endpoint implementation="parking.ParkingImpl" name="ParkingImpl" url-pattern="/ParkingImpl"/>
+</endpoints>
